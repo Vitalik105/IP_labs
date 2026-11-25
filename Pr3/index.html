@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Trivia Portal</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav aria-label="Main menu">
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trivia">Trivia</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#scores">Scores</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="home">
+            <h1>World Trivia</h1>
+            <p>World Trivia is an interactive knowledge hub created for fans of quizzes, puzzles, and surprising discoveries. Read fresh trivia facts, browse your favorite categories, and compete for a spot in the top rankings.</p>
+        </section>
+
+        <section id="trivia">
+            <h2>Trivia</h2>
+            <div class="trivia-card">
+                <img src="img/bananas.jpg" alt="">
+                <div>
+                    <h3>Bananas Are Berries</h3>
+                    <p>In botanical terms, bananas qualify as berries because they develop from a single flower with one ovary, whereas strawberries do not.</p>
+                </div>
+            </div>
+            <div class="trivia-card">
+                <img src="img/pyramid.jpg" alt="">
+                <div>
+                    <h3>Older Than Woolly Mammoths' Extinction</h3>
+                    <p>When the Great Pyramid of Giza was built around 2560 BCE, a small isolated population of woolly mammoths still survived on Wrangel Island.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories">
+            <h2>Categories</h2>
+            <ul class="categories-grid">
+                <li><a href="#categories">History</a></li>
+                <li><a href="#categories">Chemistry</a></li>
+                <li><a href="#categories">Music</a></li>
+                <li><a href="#categories">Architecture</a></li>
+                <li><a href="#categories">Mythology</a></li>
+            </ul>
+        </section>
+
+        <section id="scores">
+            <h2>Scores</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                        <th>Country</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Danylo</td>
+                        <td>985</td>
+                        <td>Ukraine</td>
+                        <td>Architecture</td>
+                        <td>2025-05-11</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Marta</td>
+                        <td>950</td>
+                        <td>Ukraine</td>
+                        <td>Mythology</td>
+                        <td>2025-05-12</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Jan</td>
+                        <td>915</td>
+                        <td>Slovakia</td>
+                        <td>Chemistry</td>
+                        <td>2025-05-12</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Nadia</td>
+                        <td>880</td>
+                        <td>France</td>
+                        <td>Music</td>
+                        <td>2025-05-13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="subscribe">
+            <h2>Subscribe</h2>
+            <p>Never miss a daily brain teaser — subscribe with one click below.</p>
+            <button type="button" class="daily-btn" aria-label="Subscribe to Puzzle of the Day">
+                Puzzle of the Day <span class="screen-reader-only">button to subscribe</span>
+            </button>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have an idea for a new category or a question for us? Drop a message here.</p>
+            <form action="#" method="post">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="name" required>
+
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" required>
+
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 World Trivia Portal</p>
+    </footer>
+</body>
+</html>
